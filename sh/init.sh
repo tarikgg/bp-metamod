@@ -11,3 +11,4 @@ mkdir "${serverPath}/csgo"
 tar -xf mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz -C ${serverPath}/csgo
 echo "extracting metamod"
 rm mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
+echo "deleted archive"
