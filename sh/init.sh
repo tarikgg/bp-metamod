@@ -8,6 +8,6 @@ wget "https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/mmsource-${METAMOD_V
 echo "Downloaded metamod"
 # mkdir -p ${serverPath}
 # tar -xf "mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz -C ${serverPath}"
-echo "${serverPath}"
+echo "${test4}"
 echo "extracting metamod"
 rm mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
