@@ -5,8 +5,6 @@ METAMOD_BUILD=968
 
 CSGO_PATH="${SERVER_PATH}/csgo"
 
-mkdir "${CSGO_PATH}"
-
 echo "Downloading metamod"
 wget https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
 echo "Downloaded metamod"
