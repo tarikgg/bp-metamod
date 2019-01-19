@@ -2,7 +2,6 @@
 METAMOD_VERSION=1.10
 METAMOD_VERSION_FULL=1.10.7
 METAMOD_BUILD=968
-serverPath=C:\\Users\\ryan9\\Desktop\\test\\test_dir
 
 echo "Downloading metamod"
 wget "https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz" &&
