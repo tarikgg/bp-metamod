@@ -10,7 +10,7 @@ mkdir "${CSGO_PATH}"
 echo "Downloading metamod"
 wget https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
 echo "Downloaded metamod"
-tar -xf mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz -C ${CSGO_PATH}
+tar -xf --overwrite mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz -C ${CSGO_PATH}
 echo "extracting metamod"
 rm mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
 echo "deleted metamod archive"
