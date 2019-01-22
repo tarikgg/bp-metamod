@@ -3,6 +3,7 @@ METAMOD_VERSION=1.10
 METAMOD_VERSION_FULL=1.10.7
 METAMOD_BUILD=968
 CSGO_PATH="${bp_serverPath}/csgo"
-wget -nv https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
-tar -xf mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz -C ${CSGO_PATH}
-rm mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz
+FILE_NAME="mmsource-${METAMOD_VERSION_FULL}-git${METAMOD_BUILD}-linux.tar.gz"
+wget -nv https://mms.alliedmods.net/mmsdrop/${METAMOD_VERSION}/${FILE_NAME}
+tar -xf ${FILE_NAME} -C ${CSGO_PATH}
+rm ${FILE_NAME}
